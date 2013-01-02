@@ -1,9 +1,8 @@
 //
 //  MultiCheckboxView.m
-//  iFishLocator
 //
 //  Created by Ed Rackham on 02/01/2013.
-//  Copyright (c) 2013 createanet.co.uk. All rights reserved.
+//  Copyright (c) 2013 edrackham.com. All rights reserved.
 //
 
 #import "MultiCheckboxView.h"
