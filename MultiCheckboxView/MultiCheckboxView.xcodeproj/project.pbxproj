@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		642219841694799100B6EB5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642219831694799100B6EB5D /* UIKit.framework */; };
+		642219861694799100B6EB5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642219851694799100B6EB5D /* Foundation.framework */; };
+		642219881694799100B6EB5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642219871694799100B6EB5D /* CoreGraphics.framework */; };
+		6422198E1694799100B6EB5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6422198C1694799100B6EB5D /* InfoPlist.strings */; };
+		642219901694799100B6EB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6422198F1694799100B6EB5D /* main.m */; };
+		642219941694799100B6EB5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 642219931694799100B6EB5D /* AppDelegate.m */; };
+		642219961694799100B6EB5D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 642219951694799100B6EB5D /* Default.png */; };
+		642219981694799100B6EB5D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642219971694799100B6EB5D /* Default@2x.png */; };
+		6422199A1694799100B6EB5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642219991694799100B6EB5D /* Default-568h@2x.png */; };
+		6422199D1694799100B6EB5D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6422199B1694799100B6EB5D /* MainStoryboard.storyboard */; };
+		642219B4169479EF00B6EB5D /* MultiCheckboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642219B3169479EF00B6EB5D /* MultiCheckboxView.m */; };
+		642219B9169479F600B6EB5D /* tickBoxOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 642219B5169479F600B6EB5D /* tickBoxOff.png */; };
+		642219BA169479F600B6EB5D /* tickBoxOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642219B6169479F600B6EB5D /* tickBoxOff@2x.png */; };
+		642219BB169479F600B6EB5D /* tickBoxOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 642219B7169479F600B6EB5D /* tickBoxOn.png */; };
+		642219BC169479F600B6EB5D /* tickBoxOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 642219B8169479F600B6EB5D /* tickBoxOn@2x.png */; };
+		642219BF16947B8700B6EB5D /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642219BE16947B8700B6EB5D /* BasicViewController.m */; };
+		642219C216947C8E00B6EB5D /* FixedHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642219C116947C8E00B6EB5D /* FixedHeightViewController.m */; };
+		642219C516947C9900B6EB5D /* ExtraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 642219C416947C9900B6EB5D /* ExtraViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6422197F1694799100B6EB5D /* MultiCheckboxView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiCheckboxView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		642219831694799100B6EB5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		642219851694799100B6EB5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		642219871694799100B6EB5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6422198B1694799100B6EB5D /* MultiCheckboxView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiCheckboxView-Info.plist"; sourceTree = "<group>"; };
+		6422198D1694799100B6EB5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6422198F1694799100B6EB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		642219911694799100B6EB5D /* MultiCheckboxView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiCheckboxView-Prefix.pch"; sourceTree = "<group>"; };
+		642219921694799100B6EB5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		642219931694799100B6EB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		642219951694799100B6EB5D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		642219971694799100B6EB5D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		642219991694799100B6EB5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6422199C1694799100B6EB5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		642219B2169479EF00B6EB5D /* MultiCheckboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiCheckboxView.h; path = ../../MultiCheckboxView.h; sourceTree = "<group>"; };
+		642219B3169479EF00B6EB5D /* MultiCheckboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiCheckboxView.m; path = ../../MultiCheckboxView.m; sourceTree = "<group>"; };
+		642219B5169479F600B6EB5D /* tickBoxOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tickBoxOff.png; path = ../../tickBoxOff.png; sourceTree = "<group>"; };
+		642219B6169479F600B6EB5D /* tickBoxOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tickBoxOff@2x.png"; path = "../../tickBoxOff@2x.png"; sourceTree = "<group>"; };
+		642219B7169479F600B6EB5D /* tickBoxOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tickBoxOn.png; path = ../../tickBoxOn.png; sourceTree = "<group>"; };
+		642219B8169479F600B6EB5D /* tickBoxOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tickBoxOn@2x.png"; path = "../../tickBoxOn@2x.png"; sourceTree = "<group>"; };
+		642219BD16947B8700B6EB5D /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		642219BE16947B8700B6EB5D /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		642219C016947C8E00B6EB5D /* FixedHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedHeightViewController.h; sourceTree = "<group>"; };
+		642219C116947C8E00B6EB5D /* FixedHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedHeightViewController.m; sourceTree = "<group>"; };
+		642219C316947C9900B6EB5D /* ExtraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraViewController.h; sourceTree = "<group>"; };
+		642219C416947C9900B6EB5D /* ExtraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6422197C1694799100B6EB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642219841694799100B6EB5D /* UIKit.framework in Frameworks */,
+				642219861694799100B6EB5D /* Foundation.framework in Frameworks */,
+				642219881694799100B6EB5D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		642219741694799000B6EB5D = {
+			isa = PBXGroup;
+			children = (
+				642219891694799100B6EB5D /* MultiCheckboxView */,
+				642219821694799100B6EB5D /* Frameworks */,
+				642219801694799100B6EB5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		642219801694799100B6EB5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6422197F1694799100B6EB5D /* MultiCheckboxView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		642219821694799100B6EB5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				642219831694799100B6EB5D /* UIKit.framework */,
+				642219851694799100B6EB5D /* Foundation.framework */,
+				642219871694799100B6EB5D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		642219891694799100B6EB5D /* MultiCheckboxView */ = {
+			isa = PBXGroup;
+			children = (
+				642219B2169479EF00B6EB5D /* MultiCheckboxView.h */,
+				642219B3169479EF00B6EB5D /* MultiCheckboxView.m */,
+				642219921694799100B6EB5D /* AppDelegate.h */,
+				642219931694799100B6EB5D /* AppDelegate.m */,
+				6422199B1694799100B6EB5D /* MainStoryboard.storyboard */,
+				642219BD16947B8700B6EB5D /* BasicViewController.h */,
+				642219BE16947B8700B6EB5D /* BasicViewController.m */,
+				642219C016947C8E00B6EB5D /* FixedHeightViewController.h */,
+				642219C116947C8E00B6EB5D /* FixedHeightViewController.m */,
+				642219C316947C9900B6EB5D /* ExtraViewController.h */,
+				642219C416947C9900B6EB5D /* ExtraViewController.m */,
+				6422198A1694799100B6EB5D /* Supporting Files */,
+			);
+			path = MultiCheckboxView;
+			sourceTree = "<group>";
+		};
+		6422198A1694799100B6EB5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				642219B1169479C100B6EB5D /* CheckboxImages */,
+				6422198B1694799100B6EB5D /* MultiCheckboxView-Info.plist */,
+				6422198C1694799100B6EB5D /* InfoPlist.strings */,
+				6422198F1694799100B6EB5D /* main.m */,
+				642219911694799100B6EB5D /* MultiCheckboxView-Prefix.pch */,
+				642219951694799100B6EB5D /* Default.png */,
+				642219971694799100B6EB5D /* Default@2x.png */,
+				642219991694799100B6EB5D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		642219B1169479C100B6EB5D /* CheckboxImages */ = {
+			isa = PBXGroup;
+			children = (
+				642219B5169479F600B6EB5D /* tickBoxOff.png */,
+				642219B6169479F600B6EB5D /* tickBoxOff@2x.png */,
+				642219B7169479F600B6EB5D /* tickBoxOn.png */,
+				642219B8169479F600B6EB5D /* tickBoxOn@2x.png */,
+			);
+			name = CheckboxImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6422197E1694799100B6EB5D /* MultiCheckboxView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642219AE1694799100B6EB5D /* Build configuration list for PBXNativeTarget "MultiCheckboxView" */;
+			buildPhases = (
+				6422197B1694799100B6EB5D /* Sources */,
+				6422197C1694799100B6EB5D /* Frameworks */,
+				6422197D1694799100B6EB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiCheckboxView;
+			productName = MultiCheckboxView;
+			productReference = 6422197F1694799100B6EB5D /* MultiCheckboxView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		642219761694799000B6EB5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = edrackham.com;
+			};
+			buildConfigurationList = 642219791694799000B6EB5D /* Build configuration list for PBXProject "MultiCheckboxView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 642219741694799000B6EB5D;
+			productRefGroup = 642219801694799100B6EB5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6422197E1694799100B6EB5D /* MultiCheckboxView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6422197D1694799100B6EB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6422198E1694799100B6EB5D /* InfoPlist.strings in Resources */,
+				642219961694799100B6EB5D /* Default.png in Resources */,
+				642219981694799100B6EB5D /* Default@2x.png in Resources */,
+				6422199A1694799100B6EB5D /* Default-568h@2x.png in Resources */,
+				6422199D1694799100B6EB5D /* MainStoryboard.storyboard in Resources */,
+				642219B9169479F600B6EB5D /* tickBoxOff.png in Resources */,
+				642219BA169479F600B6EB5D /* tickBoxOff@2x.png in Resources */,
+				642219BB169479F600B6EB5D /* tickBoxOn.png in Resources */,
+				642219BC169479F600B6EB5D /* tickBoxOn@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6422197B1694799100B6EB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642219901694799100B6EB5D /* main.m in Sources */,
+				642219941694799100B6EB5D /* AppDelegate.m in Sources */,
+				642219B4169479EF00B6EB5D /* MultiCheckboxView.m in Sources */,
+				642219BF16947B8700B6EB5D /* BasicViewController.m in Sources */,
+				642219C216947C8E00B6EB5D /* FixedHeightViewController.m in Sources */,
+				642219C516947C9900B6EB5D /* ExtraViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6422198C1694799100B6EB5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6422198D1694799100B6EB5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6422199B1694799100B6EB5D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6422199C1694799100B6EB5D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		642219AC1694799100B6EB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		642219AD1694799100B6EB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		642219AF1694799100B6EB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiCheckboxView/MultiCheckboxView-Prefix.pch";
+				INFOPLIST_FILE = "MultiCheckboxView/MultiCheckboxView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		642219B01694799100B6EB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiCheckboxView/MultiCheckboxView-Prefix.pch";
+				INFOPLIST_FILE = "MultiCheckboxView/MultiCheckboxView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		642219791694799000B6EB5D /* Build configuration list for PBXProject "MultiCheckboxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642219AC1694799100B6EB5D /* Debug */,
+				642219AD1694799100B6EB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642219AE1694799100B6EB5D /* Build configuration list for PBXNativeTarget "MultiCheckboxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642219AF1694799100B6EB5D /* Debug */,
+				642219B01694799100B6EB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 642219761694799000B6EB5D /* Project object */;
+}
